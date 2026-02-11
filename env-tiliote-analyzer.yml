@@ -1,0 +1,16 @@
+name: env-tiliote-analyzer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numba=0.63.1
+  - numpy=2.3.5
+  - scipy=1.17.0
+  - matplotlib=3.10.8
+  - pandas=3.0.0
+  - spyder-kernels=3.1
+  - ipykernel
+  - pip:
+    - pytest==9.0.2
